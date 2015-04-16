@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.name         = "HYBUIViewExtension"
   s.version      = "1.0"
-  s.summary      = "A convenience category for UIView."
+  s.summary      = "Make by Jacky Huang, a convenience category for UIView."
 
   s.description  = <<-DESC
                    A longer description of HYBUIViewExtension in Markdown format.
