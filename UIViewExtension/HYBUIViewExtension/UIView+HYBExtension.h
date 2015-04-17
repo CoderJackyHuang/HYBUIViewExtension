@@ -45,24 +45,48 @@
 
 @property (nonatomic, copy, readonly) NSString *className;
 
-/**
- *  Get the class name
- *
- *  @return class name
- */
 + (NSString *)className;
++ (instancetype)viewWithFrame:(CGRect)frame;
++ (instancetype)viewWithOriginX:(CGFloat)originX
+                        originY:(CGFloat)originY
+                          width:(CGFloat)width
+                         height:(CGFloat)height;
 
-/**
- *  Remove all subviews attached to the view.
- */
+// Just like -initWithFrame:
+- (instancetype)initWithOriginX:(CGFloat)originX
+                        originY:(CGFloat)originY
+                          width:(CGFloat)width
+                         height:(CGFloat)height;
 - (void)removeAllSubviews;
-
-/**
- *  Capture a screen shot.
- *
- *  @return The screen shot of the view.
- */
 - (UIImage *)captureScreenshot;
 
+
+////////////////////////////
+// @name Find view by Tag
+////////////////////////////
+// You also can use -viewWithTag:.
+// The following methods are easier to find a view.
+// Note: If found it, but it is not a label/button/textfield/...,
+// it will return nil. 
+- (UILabel *)labelWithTag:(NSInteger)tag;
+- (UIButton *)buttonWithTag:(NSInteger)tag;
+- (UITextField *)textFieldWithTag:(NSInteger)tag;
+- (UITextView *)textViewWithTag:(NSInteger)tag;
+- (UIScrollView *)scrollViewWithTag:(NSInteger)tag;
+- (UITableView *)tableViewWithTag:(NSInteger)tag;
+- (UITableViewCell *)tableCellWithTag:(NSInteger)tag;
+- (UINavigationBar *)navBarWithTag:(NSInteger)tag;
+- (UIWindow *)windowWithTag:(NSInteger)tag;
+- (UITabBar *)tabbarWithTag:(NSInteger)tag;
+- (UITabBarItem *)tabbarItemWithTag:(NSInteger)tag;
+- (UISwitch *)switchWithTag:(NSInteger)tag;
+- (UIStepper *)stepperWithTag:(NSInteger)tag;
+- (UISlider *)sliderWithTag:(NSInteger)tag;
+- (UISegmentedControl *)segmentWithTag:(NSInteger)tag;
+- (UITableViewHeaderFooterView *)tableHeaderFooterWithTag:(NSInteger)tag;
+- (UIToolbar *)toolbarWithTag:(NSInteger)tag;
+- (UIWebView *)webViewWithTag:(NSInteger)tag;
+- (UICollectionViewCell *)collectionCellWithTag:(NSInteger)tag;
+- (UICollectionView *)collectionViewWithTag:(NSInteger)tag;
 
 @end
