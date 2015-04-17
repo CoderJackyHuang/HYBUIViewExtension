@@ -75,7 +75,6 @@
 - (UIScrollView *)scrollViewWithTag:(NSInteger)tag;
 - (UITableView *)tableViewWithTag:(NSInteger)tag;
 - (UITableViewCell *)tableCellWithTag:(NSInteger)tag;
-- (UINavigationBar *)navBarWithTag:(NSInteger)tag;
 - (UIWindow *)windowWithTag:(NSInteger)tag;
 - (UITabBar *)tabbarWithTag:(NSInteger)tag;
 - (UITabBarItem *)tabbarItemWithTag:(NSInteger)tag;
