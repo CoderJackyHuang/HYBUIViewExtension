@@ -390,4 +390,58 @@
                         height:frame.size.height];
 }
 
+- (void)addLineWithTop:(CGFloat)topPadding left:(CGFloat)leftPadding {
+  UIColor *lineColor = kRGBColor(248, 248, 248);
+
+  [self addLineWithTop:topPadding left:leftPadding color:lineColor];
+}
+
+- (void)addLineWithTop:(CGFloat)topPadding left:(CGFloat)leftPadding color:(UIColor *)lineColor {
+  const CGFloat kHYBLineHeight = 0.5;
+
+  [self addLineWithTop:topPadding left:leftPadding color:lineColor lineHeight:kHYBLineHeight];
+}
+
+- (void)addLineWithTop:(CGFloat)topPadding left:(CGFloat)leftPadding lineHeight:(CGFloat)lineHeight {
+  UIColor *lineColor = kRGBColor(248, 248, 248);
+
+  [self addLineWithTop:topPadding left:leftPadding color:lineColor lineHeight:lineHeight];
+}
+
+- (void)addLineWithTop:(CGFloat)topPadding left:(CGFloat)leftPadding right:(CGFloat)rightPadding {
+  UIColor *lineColor = kRGBColor(248, 248, 248);
+  const CGFloat kHYBLineHeight = 0.5;
+
+  [self addLineWithTop:topPadding left:leftPadding right:rightPadding
+                 color:lineColor lineHeight:kHYBLineHeight];
+}
+
+- (void)addLineWithTop:(CGFloat)topPadding left:(CGFloat)leftPadding
+                 right:(CGFloat)rightPadding color:(UIColor *)lineColor {
+  const CGFloat kHYBLineHeight = 0.5;
+  
+  [self addLineWithTop:topPadding left:leftPadding right:rightPadding
+                 color:lineColor lineHeight:kHYBLineHeight];
+}
+
+- (void)addLineWithTop:(CGFloat)topPadding left:(CGFloat)leftPadding
+                 right:(CGFloat)rightPadding color:(UIColor *)lineColor
+            lineHeight:(CGFloat)lineHeight {
+  // line layer
+  CGRect bounds = self.layer.bounds;
+  CALayer *lineLayer = [[CALayer alloc] init];
+  
+  lineHeight = (lineHeight / [UIScreen mainScreen].scale);
+  lineLayer.frame = CGRectMake(CGRectGetMinX(bounds) + leftPadding,
+                               topPadding,
+                               bounds.size.width - leftPadding - rightPadding,
+                               lineHeight);
+  lineLayer.backgroundColor = lineColor.CGColor;
+  [self.layer addSublayer:lineLayer];
+}
+
+- (void)addLineWithTop:(CGFloat)topPadding left:(CGFloat)leftPadding color:(UIColor *)lineColor lineHeight:(CGFloat)lineHeight {
+  [self addLineWithTop:topPadding left:leftPadding right:0 color:lineColor lineHeight:lineHeight];
+}
+
 @end

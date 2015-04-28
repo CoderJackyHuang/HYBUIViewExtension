@@ -1,5 +1,6 @@
 
 #import <UIKit/UIKit.h>
+#import "HYBDeviceDefine.h"
 
 /**
  *  This is a very very helpful category for layout a view's frame.
@@ -87,5 +88,17 @@
 - (UIWebView *)webViewWithTag:(NSInteger)tag;
 - (UICollectionViewCell *)collectionCellWithTag:(NSInteger)tag;
 - (UICollectionView *)collectionViewWithTag:(NSInteger)tag;
+
+- (void)addLineWithTop:(CGFloat)topPadding left:(CGFloat)leftPadding;
+- (void)addLineWithTop:(CGFloat)topPadding left:(CGFloat)leftPadding color:(UIColor *)lineColor;
+- (void)addLineWithTop:(CGFloat)topPadding left:(CGFloat)leftPadding lineHeight:(CGFloat)lineHeight;
+- (void)addLineWithTop:(CGFloat)topPadding left:(CGFloat)leftPadding
+                 color:(UIColor *)lineColor lineHeight:(CGFloat)lineHeight;
+- (void)addLineWithTop:(CGFloat)topPadding left:(CGFloat)leftPadding right:(CGFloat)rightPadding;
+- (void)addLineWithTop:(CGFloat)topPadding left:(CGFloat)leftPadding
+                 right:(CGFloat)rightPadding color:(UIColor *)lineColor;
+- (void)addLineWithTop:(CGFloat)topPadding left:(CGFloat)leftPadding
+                 right:(CGFloat)rightPadding color:(UIColor *)lineColor
+            lineHeight:(CGFloat)lineHeight;
 
 @end
