@@ -70,6 +70,7 @@
 		695C3B911AFC53A900AE81D0 /* UITextField+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HYBKit.m"; sourceTree = "<group>"; };
 		695C3B921AFC53A900AE81D0 /* UIWindow+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+HYBKit.h"; sourceTree = "<group>"; };
 		695C3B931AFC53A900AE81D0 /* UIWindow+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+HYBKit.m"; sourceTree = "<group>"; };
+		695C3B9D1AFC5AC400AE81D0 /* HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBKit.h; sourceTree = "<group>"; };
 		85FFFD525AF1A0906DA528B0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F077DC94B634B6E59B9232 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -177,6 +178,7 @@
 				695812BC1ADE5E3100C5C9CE /* HYBDeviceDefine.h */,
 				695812BD1ADE5E3100C5C9CE /* UIView+HYBExtension.h */,
 				695812BE1ADE5E3100C5C9CE /* UIView+HYBExtension.m */,
+				695C3B9D1AFC5AC400AE81D0 /* HYBKit.h */,
 			);
 			path = HYBUIViewExtension;
 			sourceTree = "<group>";
@@ -475,6 +477,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Debug;
 		};
@@ -487,6 +490,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Release;
 		};

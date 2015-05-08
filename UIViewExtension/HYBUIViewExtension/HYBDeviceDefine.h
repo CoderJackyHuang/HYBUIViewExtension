@@ -18,16 +18,6 @@
  *        Don't delete me, thanks!!!!
  *****************************************************************************/
 
-#import "UIActionSheet+HYBKit.h"
-#import "UIAlertView+HYBKit.h"
-#import "UIButton+HYBKit.h"
-#import "UIDevice+HYBKit.h"
-#import "UIImagePickerController+HYBExtension.h"
-#import "UIScrollView+HYBKit.h"
-#import "UITextField+HYBKit.h"
-#import "UIWindow+HYBKit.h"
-#import "UIView+HYBExtension.h"
-#import "UIColor+HYBExtension.h"
 
 typedef void (^HYBErrorBlock)(NSError *error);
 typedef void (^HYBVoidBlock)(void);
@@ -52,7 +42,6 @@ typedef void (^HYBStringMsgBlock)(NSString *result, NSString *errorMsg);
 
 typedef void (^HYBIdBlock)(id result);
 typedef void (^HYBIdMsgBlock)(id result, NSString *errorMsg);
-
 
 
 // string format
@@ -123,6 +112,9 @@ alpha:1])
 green:(g) / 255.0  \
 blue:(b) / 255.0  \
 alpha:(a)])
+
+#define kColorWith16RGB(rgb) k16RGBColor(rgb)
+#define kColorWithRGB(r,g,b) kRGBColor(r,g,b)
 
 // image
 // Only load png image successfully.

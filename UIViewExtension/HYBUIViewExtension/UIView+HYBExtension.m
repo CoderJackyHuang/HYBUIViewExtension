@@ -495,4 +495,17 @@
   [self addDownAnimation:CGPointMake(0.95, 0.95) completion:completion];
 }
 
+- (void)fadeWithDuration:(NSTimeInterval)duration {
+  [UIView fadeInWithView:self duration:duration];
+}
+
++ (void)fadeInWithView:(UIView *)fadeView duration:(NSTimeInterval)duration {
+  CATransition *animation = [CATransition animation];
+  [animation setDuration:duration];
+  [animation setType:kCATransitionFade];
+  animation.removedOnCompletion = YES;
+  [fadeView.layer addAnimation:animation forKey:@"transition"];
+}
+
+
 @end

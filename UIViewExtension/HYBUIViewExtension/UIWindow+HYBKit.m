@@ -7,7 +7,7 @@
 //
 
 #import "UIWindow+HYBKit.h"
-#import "Common.h"
+#import "HYBDeviceDefine.h"
 
 @implementation UIWindow (HYBKit)
 

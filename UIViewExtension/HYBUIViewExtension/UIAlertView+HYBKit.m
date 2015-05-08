@@ -7,7 +7,7 @@
 //
 
 #import "UIAlertView+HYBKit.h"
-#import "Common.h"
+#import "HYBDeviceDefine.h"
 
 #define kOkButtonDefaultTitle     @"确定"
 #define kCancelButtonDefaultTitle @"取消"
