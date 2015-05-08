@@ -89,6 +89,29 @@
 - (UICollectionViewCell *)collectionCellWithTag:(NSInteger)tag;
 - (UICollectionView *)collectionViewWithTag:(NSInteger)tag;
 
+/**
+ *  添加抖动效果
+ */
+- (void)shakeView;
+
+/**
+ * 添加放大后又缩小的动画
+ */
+- (void)addScaleAnimationWithCompletion:(HYBVoidBlock)completion;
+- (void)addScaleAnimation:(CGPoint)scale completion:(HYBVoidBlock)completion;
+
+/**
+ * 添加压下的动画
+ */
+- (void)addDownAnimationWithCompletion:(HYBVoidBlock)completion;
+- (void)addDownAnimation:(CGPoint)scale completion:(HYBVoidBlock)completion;
+
+/**
+ * 添加淡入淡出的动画
+ */
+- (void)fadeWithDuration:(NSTimeInterval)duration;
++ (void)fadeInWithView:(UIView *)fadeView duration:(NSTimeInterval)duration;
+
 - (void)addLineWithTop:(CGFloat)topPadding left:(CGFloat)leftPadding;
 - (void)addLineWithTop:(CGFloat)topPadding left:(CGFloat)leftPadding color:(UIColor *)lineColor;
 - (void)addLineWithTop:(CGFloat)topPadding left:(CGFloat)leftPadding lineHeight:(CGFloat)lineHeight;
@@ -100,5 +123,6 @@
 - (void)addLineWithTop:(CGFloat)topPadding left:(CGFloat)leftPadding
                  right:(CGFloat)rightPadding color:(UIColor *)lineColor
             lineHeight:(CGFloat)lineHeight;
+
 
 @end

@@ -18,6 +18,31 @@
  *        Don't delete me, thanks!!!!
  *****************************************************************************/
 
+typedef void (^HYBErrorBlock)(NSError *error);
+typedef void (^HYBVoidBlock)(void);
+
+typedef void (^HYBBoolBlock)(BOOL result);
+typedef void (^HYBBoolMsgBlock)(BOOL result, NSString *errorMsg);
+
+typedef void (^HYBArrayBlock)(NSArray *resultList);
+typedef void (^HYBArrayMsgBlock)(NSArray *resultList, NSString *errorMsg);
+
+typedef void (^HYBDictionaryBlock)(NSDictionary *resultDict);
+typedef void (^HYBDictionaryMsgBlock)(NSDictionary *resultDict, NSString *errorMsg);
+
+typedef void (^HYBNumberBlock)(NSNumber *resultNumber);
+typedef void (^HYBNumberMsgBlock)(NSNumber *resultNumber, NSString *errorMsg);
+
+typedef void (^HYBIntegerBlock)(NSInteger resultNumber);
+typedef void (^HYBIntegerMsgBlock)(NSInteger resultNumber, NSString *errorMsg);
+
+typedef void (^HYBStringBlock)(NSString *result);
+typedef void (^HYBStringMsgBlock)(NSString *result, NSString *errorMsg);
+
+typedef void (^HYBIdBlock)(id result);
+typedef void (^HYBIdMsgBlock)(id result, NSString *errorMsg);
+
+
 
 // string format
 #define kStringFormat(format, params) ([NSString stringWithFormat:format, params])

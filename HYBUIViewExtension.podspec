@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HYBUIViewExtension"
-  s.version      = "1.2"
+  s.version      = "1.3"
   s.summary      = "Make by Jacky Huang, a convenience category for UIView."
 
   s.description  = <<-DESC
@@ -71,7 +71,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/632840804/UIViewExtension.git", :tag => "1.2" }
+  s.source       = { :git => "https://github.com/632840804/UIViewExtension.git", :tag => "1.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

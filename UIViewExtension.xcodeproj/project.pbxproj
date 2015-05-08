@@ -15,6 +15,14 @@
 		6958129C1ADE54A000C5C9CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6958129A1ADE54A000C5C9CE /* LaunchScreen.xib */; };
 		695812A81ADE54A100C5C9CE /* UIViewExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 695812A71ADE54A100C5C9CE /* UIViewExtensionTests.m */; };
 		695812BF1ADE5E3100C5C9CE /* UIView+HYBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 695812BE1ADE5E3100C5C9CE /* UIView+HYBExtension.m */; };
+		695C3B941AFC53A900AE81D0 /* UIActionSheet+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C3B851AFC53A900AE81D0 /* UIActionSheet+HYBKit.m */; };
+		695C3B951AFC53A900AE81D0 /* UIAlertView+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C3B871AFC53A900AE81D0 /* UIAlertView+HYBKit.m */; };
+		695C3B961AFC53A900AE81D0 /* UIButton+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C3B891AFC53A900AE81D0 /* UIButton+HYBKit.m */; };
+		695C3B971AFC53A900AE81D0 /* UIDevice+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C3B8B1AFC53A900AE81D0 /* UIDevice+HYBKit.m */; };
+		695C3B981AFC53A900AE81D0 /* UIImagePickerController+HYBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C3B8D1AFC53A900AE81D0 /* UIImagePickerController+HYBExtension.m */; };
+		695C3B991AFC53A900AE81D0 /* UIScrollView+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C3B8F1AFC53A900AE81D0 /* UIScrollView+HYBKit.m */; };
+		695C3B9A1AFC53A900AE81D0 /* UITextField+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C3B911AFC53A900AE81D0 /* UITextField+HYBKit.m */; };
+		695C3B9B1AFC53A900AE81D0 /* UIWindow+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C3B931AFC53A900AE81D0 /* UIWindow+HYBKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,22 @@
 		695812BC1ADE5E3100C5C9CE /* HYBDeviceDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBDeviceDefine.h; sourceTree = "<group>"; };
 		695812BD1ADE5E3100C5C9CE /* UIView+HYBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HYBExtension.h"; sourceTree = "<group>"; };
 		695812BE1ADE5E3100C5C9CE /* UIView+HYBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HYBExtension.m"; sourceTree = "<group>"; };
+		695C3B841AFC53A900AE81D0 /* UIActionSheet+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+HYBKit.h"; sourceTree = "<group>"; };
+		695C3B851AFC53A900AE81D0 /* UIActionSheet+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+HYBKit.m"; sourceTree = "<group>"; };
+		695C3B861AFC53A900AE81D0 /* UIAlertView+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+HYBKit.h"; sourceTree = "<group>"; };
+		695C3B871AFC53A900AE81D0 /* UIAlertView+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+HYBKit.m"; sourceTree = "<group>"; };
+		695C3B881AFC53A900AE81D0 /* UIButton+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HYBKit.h"; sourceTree = "<group>"; };
+		695C3B891AFC53A900AE81D0 /* UIButton+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HYBKit.m"; sourceTree = "<group>"; };
+		695C3B8A1AFC53A900AE81D0 /* UIDevice+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+HYBKit.h"; sourceTree = "<group>"; };
+		695C3B8B1AFC53A900AE81D0 /* UIDevice+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+HYBKit.m"; sourceTree = "<group>"; };
+		695C3B8C1AFC53A900AE81D0 /* UIImagePickerController+HYBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerController+HYBExtension.h"; sourceTree = "<group>"; };
+		695C3B8D1AFC53A900AE81D0 /* UIImagePickerController+HYBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImagePickerController+HYBExtension.m"; sourceTree = "<group>"; };
+		695C3B8E1AFC53A900AE81D0 /* UIScrollView+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+HYBKit.h"; sourceTree = "<group>"; };
+		695C3B8F1AFC53A900AE81D0 /* UIScrollView+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+HYBKit.m"; sourceTree = "<group>"; };
+		695C3B901AFC53A900AE81D0 /* UITextField+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+HYBKit.h"; sourceTree = "<group>"; };
+		695C3B911AFC53A900AE81D0 /* UITextField+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HYBKit.m"; sourceTree = "<group>"; };
+		695C3B921AFC53A900AE81D0 /* UIWindow+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+HYBKit.h"; sourceTree = "<group>"; };
+		695C3B931AFC53A900AE81D0 /* UIWindow+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+HYBKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +151,22 @@
 		695812BB1ADE5E3100C5C9CE /* HYBUIViewExtension */ = {
 			isa = PBXGroup;
 			children = (
+				695C3B841AFC53A900AE81D0 /* UIActionSheet+HYBKit.h */,
+				695C3B851AFC53A900AE81D0 /* UIActionSheet+HYBKit.m */,
+				695C3B861AFC53A900AE81D0 /* UIAlertView+HYBKit.h */,
+				695C3B871AFC53A900AE81D0 /* UIAlertView+HYBKit.m */,
+				695C3B881AFC53A900AE81D0 /* UIButton+HYBKit.h */,
+				695C3B891AFC53A900AE81D0 /* UIButton+HYBKit.m */,
+				695C3B8A1AFC53A900AE81D0 /* UIDevice+HYBKit.h */,
+				695C3B8B1AFC53A900AE81D0 /* UIDevice+HYBKit.m */,
+				695C3B8C1AFC53A900AE81D0 /* UIImagePickerController+HYBExtension.h */,
+				695C3B8D1AFC53A900AE81D0 /* UIImagePickerController+HYBExtension.m */,
+				695C3B8E1AFC53A900AE81D0 /* UIScrollView+HYBKit.h */,
+				695C3B8F1AFC53A900AE81D0 /* UIScrollView+HYBKit.m */,
+				695C3B901AFC53A900AE81D0 /* UITextField+HYBKit.h */,
+				695C3B911AFC53A900AE81D0 /* UITextField+HYBKit.m */,
+				695C3B921AFC53A900AE81D0 /* UIWindow+HYBKit.h */,
+				695C3B931AFC53A900AE81D0 /* UIWindow+HYBKit.m */,
 				695812BC1ADE5E3100C5C9CE /* HYBDeviceDefine.h */,
 				695812BD1ADE5E3100C5C9CE /* UIView+HYBExtension.h */,
 				695812BE1ADE5E3100C5C9CE /* UIView+HYBExtension.m */,
@@ -234,10 +274,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				695C3B971AFC53A900AE81D0 /* UIDevice+HYBKit.m in Sources */,
+				695C3B9A1AFC53A900AE81D0 /* UITextField+HYBKit.m in Sources */,
+				695C3B981AFC53A900AE81D0 /* UIImagePickerController+HYBExtension.m in Sources */,
+				695C3B941AFC53A900AE81D0 /* UIActionSheet+HYBKit.m in Sources */,
 				695812BF1ADE5E3100C5C9CE /* UIView+HYBExtension.m in Sources */,
 				695812941ADE54A000C5C9CE /* ViewController.m in Sources */,
 				695812911ADE54A000C5C9CE /* AppDelegate.m in Sources */,
+				695C3B991AFC53A900AE81D0 /* UIScrollView+HYBKit.m in Sources */,
+				695C3B9B1AFC53A900AE81D0 /* UIWindow+HYBKit.m in Sources */,
+				695C3B951AFC53A900AE81D0 /* UIAlertView+HYBKit.m in Sources */,
 				6958128E1ADE54A000C5C9CE /* main.m in Sources */,
+				695C3B961AFC53A900AE81D0 /* UIButton+HYBKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +482,7 @@
 				695812AD1ADE54A100C5C9CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		695812AE1ADE54A100C5C9CE /* Build configuration list for PBXNativeTarget "UIViewExtensionTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +491,7 @@
 				695812B01ADE54A100C5C9CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -444,4 +444,55 @@
   [self addLineWithTop:topPadding left:leftPadding right:0 color:lineColor lineHeight:lineHeight];
 }
 
+- (void)shakeView {
+  CAKeyframeAnimation *shake = [CAKeyframeAnimation animationWithKeyPath:@"transform"];
+  shake.values = @[[NSValue valueWithCATransform3D:CATransform3DMakeTranslation(-5.0f, 0.0f, 0.0f)], [NSValue valueWithCATransform3D:CATransform3DMakeTranslation(5.0f, 0.0f, 0.0f)]];
+  shake.autoreverses = YES;
+  shake.repeatCount = 2.0f;
+  shake.duration = 0.07f;
+  
+  [self.layer addAnimation:shake forKey:nil];
+}
+
+- (void)addScaleAnimation:(CGPoint)scale completion:(HYBVoidBlock)completion {
+  [UIView animateWithDuration:0.35 delay:0.0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+    self.transform = CGAffineTransformMakeScale(scale.x, scale.y);
+  } completion:^(BOOL finished) {
+    if (finished) {
+      [UIView animateWithDuration:0.25 delay: 0.0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+        self.transform = CGAffineTransformIdentity;
+      } completion:^(BOOL finished) {
+        if (finished) {
+          if (completion) {
+            completion();
+          }
+        }
+      }];
+    }
+  }];
+}
+
+- (void)addScaleAnimationWithCompletion:(HYBVoidBlock)completion {
+  [self addScaleAnimation:CGPointMake(1.18, 1.18) completion:completion];
+}
+
+- (void)addDownAnimation:(CGPoint)scale completion:(HYBVoidBlock)completion {
+  [UIView animateWithDuration:0.35 delay:0.0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+    self.transform = CGAffineTransformMakeScale(0.95, 0.95);
+  } completion:^(BOOL finished) {
+    if (finished) {
+      [UIView animateWithDuration:0.25 delay:0.0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+        self.transform = CGAffineTransformIdentity;
+      } completion:NULL];
+      if (completion) {
+        completion();
+      }
+    }
+  }];
+}
+
+- (void)addDownAnimationWithCompletion:(HYBVoidBlock)completion {
+  [self addDownAnimation:CGPointMake(0.95, 0.95) completion:completion];
+}
+
 @end
