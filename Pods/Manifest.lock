@@ -1,0 +1,10 @@
+PODS:
+  - HYBUIColorExtension (0.0.1)
+
+DEPENDENCIES:
+  - HYBUIColorExtension (~> 0.0)
+
+SPEC CHECKSUMS:
+  HYBUIColorExtension: 6d4216d3aeba393c6820a74fb67a76556d1306e3
+
+COCOAPODS: 0.36.0

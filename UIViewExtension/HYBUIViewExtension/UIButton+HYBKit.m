@@ -7,6 +7,7 @@
 //
 
 #import "UIButton+HYBKit.h"
+#import "HYBDeviceDefine.h"
 
 @implementation UIButton (HYBKit)
 

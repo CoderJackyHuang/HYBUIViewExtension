@@ -18,6 +18,17 @@
  *        Don't delete me, thanks!!!!
  *****************************************************************************/
 
+#import "UIActionSheet+HYBKit.h"
+#import "UIAlertView+HYBKit.h"
+#import "UIButton+HYBKit.h"
+#import "UIDevice+HYBKit.h"
+#import "UIImagePickerController+HYBExtension.h"
+#import "UIScrollView+HYBKit.h"
+#import "UITextField+HYBKit.h"
+#import "UIWindow+HYBKit.h"
+#import "UIView+HYBExtension.h"
+#import "UIColor+HYBExtension.h"
+
 typedef void (^HYBErrorBlock)(NSError *error);
 typedef void (^HYBVoidBlock)(void);
 
@@ -89,6 +100,12 @@ typedef void (^HYBIdMsgBlock)(id result, NSString *errorMsg);
 #define kNavBarHeight  (44.0)
 #define kStatusBarHeight (20.0)
 #define kTabBarHeight (49.0)
+
+#define kWidthScale (kScreenWidth / 320.0)
+#define kHeightScale (kScreenHeight / 568.0)
+
+#define kFontWithSize(size) [UIFont systemFontOfSize:size * kWidthScale]
+#define kBoldFontWithSize(size) [UIFont systemFontOfSize:size * kWidthScale]
 
 // color
 ///< format：0xFFFFFF
