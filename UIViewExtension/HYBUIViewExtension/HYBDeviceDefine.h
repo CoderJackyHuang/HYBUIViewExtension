@@ -14,13 +14,15 @@
  *        QQ:(632840804)
  *        Weixin:(huangyibiao520)
  *        Please tell me your real name when you send message to me.3Q.
- *        
+ *
  *        Don't delete me, thanks!!!!
  *****************************************************************************/
 
 
 typedef void (^HYBErrorBlock)(NSError *error);
 typedef void (^HYBVoidBlock)(void);
+
+typedef void (^HYBNotificationBlock)(NSNotification *notification);
 
 typedef void (^HYBBoolBlock)(BOOL result);
 typedef void (^HYBBoolMsgBlock)(BOOL result, NSString *errorMsg);
@@ -115,6 +117,7 @@ alpha:(a)])
 
 #define kColorWith16RGB(rgb) k16RGBColor(rgb)
 #define kColorWithRGB(r,g,b) kRGBColor(r,g,b)
+#define kColorWithRGBA(r,g,b,a) kRGBAColor(r, g, b, a)
 
 // image
 // Only load png image successfully.
@@ -126,14 +129,13 @@ alpha:(a)])
 #define kNotificationCenter  [NSNotificationCenter defaultCenter]
 
 #define kPostNotificationWithName(notificationName) \
-[kNotificationCenter postNotificationName:notificationName object:nil userInfo:nil];
+[kNotificationCenter postNotificationName:notificationName object:nil userInfo:nil]
 
 #define kPostNotificationWithNameAndUserInfo(notificationName, userInfo) \
-[kNotificationCenter postNotificationName:notificationName object:nil userInfo:userInfo];
+[kNotificationCenter postNotificationName:notificationName object:nil userInfo:userInfo]
 
-// empty 
-#define kIsEmptyString(str) \
-(!(str !== nil && ![str isKindOfClass:[NSNull class]] && str.length > 0))
+// empty
+#define kIsEmptyString(s) (s == nil || [s isKindOfClass:[NSNull class]] || ([s isKindOfClass:[NSString class]] && s.length > 0))
 
 #define kIsNull(obj) ([obj isKindOfClass:[NSNull class]])
 

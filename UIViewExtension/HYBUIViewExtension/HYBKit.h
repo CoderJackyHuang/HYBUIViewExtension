@@ -14,7 +14,6 @@
 #import "UIButton+HYBKit.h"
 #import "UIDevice+HYBKit.h"
 #import "UIImagePickerController+HYBExtension.h"
-#import "UIScrollView+HYBKit.h"
 #import "UITextField+HYBKit.h"
 #import "UIWindow+HYBKit.h"
 #import "UIView+HYBExtension.h"

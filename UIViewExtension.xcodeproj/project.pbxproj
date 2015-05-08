@@ -20,7 +20,6 @@
 		695C3B961AFC53A900AE81D0 /* UIButton+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C3B891AFC53A900AE81D0 /* UIButton+HYBKit.m */; };
 		695C3B971AFC53A900AE81D0 /* UIDevice+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C3B8B1AFC53A900AE81D0 /* UIDevice+HYBKit.m */; };
 		695C3B981AFC53A900AE81D0 /* UIImagePickerController+HYBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C3B8D1AFC53A900AE81D0 /* UIImagePickerController+HYBExtension.m */; };
-		695C3B991AFC53A900AE81D0 /* UIScrollView+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C3B8F1AFC53A900AE81D0 /* UIScrollView+HYBKit.m */; };
 		695C3B9A1AFC53A900AE81D0 /* UITextField+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C3B911AFC53A900AE81D0 /* UITextField+HYBKit.m */; };
 		695C3B9B1AFC53A900AE81D0 /* UIWindow+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C3B931AFC53A900AE81D0 /* UIWindow+HYBKit.m */; };
 		F7648977243E62C84198628D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85FFFD525AF1A0906DA528B0 /* libPods.a */; };
@@ -64,8 +63,6 @@
 		695C3B8B1AFC53A900AE81D0 /* UIDevice+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+HYBKit.m"; sourceTree = "<group>"; };
 		695C3B8C1AFC53A900AE81D0 /* UIImagePickerController+HYBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerController+HYBExtension.h"; sourceTree = "<group>"; };
 		695C3B8D1AFC53A900AE81D0 /* UIImagePickerController+HYBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImagePickerController+HYBExtension.m"; sourceTree = "<group>"; };
-		695C3B8E1AFC53A900AE81D0 /* UIScrollView+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+HYBKit.h"; sourceTree = "<group>"; };
-		695C3B8F1AFC53A900AE81D0 /* UIScrollView+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+HYBKit.m"; sourceTree = "<group>"; };
 		695C3B901AFC53A900AE81D0 /* UITextField+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+HYBKit.h"; sourceTree = "<group>"; };
 		695C3B911AFC53A900AE81D0 /* UITextField+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HYBKit.m"; sourceTree = "<group>"; };
 		695C3B921AFC53A900AE81D0 /* UIWindow+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+HYBKit.h"; sourceTree = "<group>"; };
@@ -169,8 +166,6 @@
 				695C3B8B1AFC53A900AE81D0 /* UIDevice+HYBKit.m */,
 				695C3B8C1AFC53A900AE81D0 /* UIImagePickerController+HYBExtension.h */,
 				695C3B8D1AFC53A900AE81D0 /* UIImagePickerController+HYBExtension.m */,
-				695C3B8E1AFC53A900AE81D0 /* UIScrollView+HYBKit.h */,
-				695C3B8F1AFC53A900AE81D0 /* UIScrollView+HYBKit.m */,
 				695C3B901AFC53A900AE81D0 /* UITextField+HYBKit.h */,
 				695C3B911AFC53A900AE81D0 /* UITextField+HYBKit.m */,
 				695C3B921AFC53A900AE81D0 /* UIWindow+HYBKit.h */,
@@ -342,7 +337,6 @@
 				695812BF1ADE5E3100C5C9CE /* UIView+HYBExtension.m in Sources */,
 				695812941ADE54A000C5C9CE /* ViewController.m in Sources */,
 				695812911ADE54A000C5C9CE /* AppDelegate.m in Sources */,
-				695C3B991AFC53A900AE81D0 /* UIScrollView+HYBKit.m in Sources */,
 				695C3B9B1AFC53A900AE81D0 /* UIWindow+HYBKit.m in Sources */,
 				695C3B951AFC53A900AE81D0 /* UIAlertView+HYBKit.m in Sources */,
 				6958128E1ADE54A000C5C9CE /* main.m in Sources */,
