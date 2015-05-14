@@ -42,7 +42,7 @@ typedef void (^HYBIntegerMsgBlock)(NSInteger resultNumber, NSString *errorMsg);
 typedef void (^HYBStringBlock)(NSString *result);
 typedef void (^HYBStringMsgBlock)(NSString *result, NSString *errorMsg);
 
-typedef void (^HYBIdBlock)(id result);
+typedef void (^HYBIdBlock)(id sender);
 typedef void (^HYBIdMsgBlock)(id result, NSString *errorMsg);
 
 
@@ -135,7 +135,7 @@ alpha:(a)])
 [kNotificationCenter postNotificationName:notificationName object:nil userInfo:userInfo]
 
 // empty
-#define kIsEmptyString(s) (s == nil || [s isKindOfClass:[NSNull class]] || ([s isKindOfClass:[NSString class]] && s.length > 0))
+#define kIsEmptyString(s) (s == nil || [s isKindOfClass:[NSNull class]] || ([s isKindOfClass:[NSString class]] && s.length == 0))
 
 #define kIsNull(obj) ([obj isKindOfClass:[NSNull class]])
 
