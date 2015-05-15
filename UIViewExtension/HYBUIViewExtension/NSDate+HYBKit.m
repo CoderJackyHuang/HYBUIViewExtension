@@ -125,7 +125,7 @@
 }
 
 + (BOOL)isLeapYear:(NSDate *)date {
-  NSUInteger year = [date year];
+  int year = (int)[date year];
   if ((year % 4  == 0 && year % 100 != 0) || year % 400 == 0) {
     return YES;
   }
@@ -137,7 +137,10 @@
 }
 
 + (NSString *)formatYMD:(NSDate *)date {
-  return [NSString stringWithFormat:@"%lu-%02lu-%02lu",[date year],[date month], [date day]];
+  return [NSString stringWithFormat:@"%ld-%02ld-%02ld",
+          (long)[date year],
+          (long)[date month],
+          (long)[date day]];
 }
 
 - (NSUInteger)weeksOfMonth {
