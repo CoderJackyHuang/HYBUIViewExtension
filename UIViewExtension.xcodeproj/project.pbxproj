@@ -22,6 +22,17 @@
 		695C3B981AFC53A900AE81D0 /* UIImagePickerController+HYBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C3B8D1AFC53A900AE81D0 /* UIImagePickerController+HYBExtension.m */; };
 		695C3B9A1AFC53A900AE81D0 /* UITextField+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C3B911AFC53A900AE81D0 /* UITextField+HYBKit.m */; };
 		695C3B9B1AFC53A900AE81D0 /* UIWindow+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C3B931AFC53A900AE81D0 /* UIWindow+HYBKit.m */; };
+		69A4CD771B05F1F600209ABD /* NSArray+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A4CD621B05F1F600209ABD /* NSArray+HYBKit.m */; };
+		69A4CD781B05F1F600209ABD /* NSData+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A4CD641B05F1F600209ABD /* NSData+HYBKit.m */; };
+		69A4CD791B05F1F600209ABD /* NSDate+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A4CD661B05F1F600209ABD /* NSDate+HYBKit.m */; };
+		69A4CD7A1B05F1F600209ABD /* NSDictionary+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A4CD681B05F1F600209ABD /* NSDictionary+HYBKit.m */; };
+		69A4CD7B1B05F1F600209ABD /* NSError+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A4CD6A1B05F1F600209ABD /* NSError+HYBKit.m */; };
+		69A4CD7C1B05F1F600209ABD /* NSFileManager+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A4CD6C1B05F1F600209ABD /* NSFileManager+HYBKit.m */; };
+		69A4CD7D1B05F1F600209ABD /* NSMutableArray+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A4CD6E1B05F1F600209ABD /* NSMutableArray+HYBKit.m */; };
+		69A4CD7E1B05F1F600209ABD /* NSMutableDictionary+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A4CD701B05F1F600209ABD /* NSMutableDictionary+HYBKit.m */; };
+		69A4CD7F1B05F1F600209ABD /* NSObject+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A4CD721B05F1F600209ABD /* NSObject+HYBKit.m */; };
+		69A4CD801B05F1F600209ABD /* NSString+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A4CD741B05F1F600209ABD /* NSString+HYBKit.m */; };
+		69A4CD811B05F1F600209ABD /* NSTimer+HYBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A4CD761B05F1F600209ABD /* NSTimer+HYBExtension.m */; };
 		F7648977243E62C84198628D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85FFFD525AF1A0906DA528B0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +79,29 @@
 		695C3B921AFC53A900AE81D0 /* UIWindow+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+HYBKit.h"; sourceTree = "<group>"; };
 		695C3B931AFC53A900AE81D0 /* UIWindow+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+HYBKit.m"; sourceTree = "<group>"; };
 		695C3B9D1AFC5AC400AE81D0 /* HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBKit.h; sourceTree = "<group>"; };
+		69A4CD601B05F1F600209ABD /* HYBFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBFoundation.h; sourceTree = "<group>"; };
+		69A4CD611B05F1F600209ABD /* NSArray+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HYBKit.h"; sourceTree = "<group>"; };
+		69A4CD621B05F1F600209ABD /* NSArray+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HYBKit.m"; sourceTree = "<group>"; };
+		69A4CD631B05F1F600209ABD /* NSData+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+HYBKit.h"; sourceTree = "<group>"; };
+		69A4CD641B05F1F600209ABD /* NSData+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+HYBKit.m"; sourceTree = "<group>"; };
+		69A4CD651B05F1F600209ABD /* NSDate+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+HYBKit.h"; sourceTree = "<group>"; };
+		69A4CD661B05F1F600209ABD /* NSDate+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HYBKit.m"; sourceTree = "<group>"; };
+		69A4CD671B05F1F600209ABD /* NSDictionary+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HYBKit.h"; sourceTree = "<group>"; };
+		69A4CD681B05F1F600209ABD /* NSDictionary+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HYBKit.m"; sourceTree = "<group>"; };
+		69A4CD691B05F1F600209ABD /* NSError+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+HYBKit.h"; sourceTree = "<group>"; };
+		69A4CD6A1B05F1F600209ABD /* NSError+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+HYBKit.m"; sourceTree = "<group>"; };
+		69A4CD6B1B05F1F600209ABD /* NSFileManager+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+HYBKit.h"; sourceTree = "<group>"; };
+		69A4CD6C1B05F1F600209ABD /* NSFileManager+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+HYBKit.m"; sourceTree = "<group>"; };
+		69A4CD6D1B05F1F600209ABD /* NSMutableArray+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+HYBKit.h"; sourceTree = "<group>"; };
+		69A4CD6E1B05F1F600209ABD /* NSMutableArray+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+HYBKit.m"; sourceTree = "<group>"; };
+		69A4CD6F1B05F1F600209ABD /* NSMutableDictionary+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+HYBKit.h"; sourceTree = "<group>"; };
+		69A4CD701B05F1F600209ABD /* NSMutableDictionary+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+HYBKit.m"; sourceTree = "<group>"; };
+		69A4CD711B05F1F600209ABD /* NSObject+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HYBKit.h"; sourceTree = "<group>"; };
+		69A4CD721B05F1F600209ABD /* NSObject+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HYBKit.m"; sourceTree = "<group>"; };
+		69A4CD731B05F1F600209ABD /* NSString+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HYBKit.h"; sourceTree = "<group>"; };
+		69A4CD741B05F1F600209ABD /* NSString+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HYBKit.m"; sourceTree = "<group>"; };
+		69A4CD751B05F1F600209ABD /* NSTimer+HYBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+HYBExtension.h"; sourceTree = "<group>"; };
+		69A4CD761B05F1F600209ABD /* NSTimer+HYBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+HYBExtension.m"; sourceTree = "<group>"; };
 		85FFFD525AF1A0906DA528B0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F077DC94B634B6E59B9232 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,6 +190,29 @@
 		695812BB1ADE5E3100C5C9CE /* HYBUIViewExtension */ = {
 			isa = PBXGroup;
 			children = (
+				69A4CD601B05F1F600209ABD /* HYBFoundation.h */,
+				69A4CD611B05F1F600209ABD /* NSArray+HYBKit.h */,
+				69A4CD621B05F1F600209ABD /* NSArray+HYBKit.m */,
+				69A4CD631B05F1F600209ABD /* NSData+HYBKit.h */,
+				69A4CD641B05F1F600209ABD /* NSData+HYBKit.m */,
+				69A4CD651B05F1F600209ABD /* NSDate+HYBKit.h */,
+				69A4CD661B05F1F600209ABD /* NSDate+HYBKit.m */,
+				69A4CD671B05F1F600209ABD /* NSDictionary+HYBKit.h */,
+				69A4CD681B05F1F600209ABD /* NSDictionary+HYBKit.m */,
+				69A4CD691B05F1F600209ABD /* NSError+HYBKit.h */,
+				69A4CD6A1B05F1F600209ABD /* NSError+HYBKit.m */,
+				69A4CD6B1B05F1F600209ABD /* NSFileManager+HYBKit.h */,
+				69A4CD6C1B05F1F600209ABD /* NSFileManager+HYBKit.m */,
+				69A4CD6D1B05F1F600209ABD /* NSMutableArray+HYBKit.h */,
+				69A4CD6E1B05F1F600209ABD /* NSMutableArray+HYBKit.m */,
+				69A4CD6F1B05F1F600209ABD /* NSMutableDictionary+HYBKit.h */,
+				69A4CD701B05F1F600209ABD /* NSMutableDictionary+HYBKit.m */,
+				69A4CD711B05F1F600209ABD /* NSObject+HYBKit.h */,
+				69A4CD721B05F1F600209ABD /* NSObject+HYBKit.m */,
+				69A4CD731B05F1F600209ABD /* NSString+HYBKit.h */,
+				69A4CD741B05F1F600209ABD /* NSString+HYBKit.m */,
+				69A4CD751B05F1F600209ABD /* NSTimer+HYBExtension.h */,
+				69A4CD761B05F1F600209ABD /* NSTimer+HYBExtension.m */,
 				695C3B841AFC53A900AE81D0 /* UIActionSheet+HYBKit.h */,
 				695C3B851AFC53A900AE81D0 /* UIActionSheet+HYBKit.m */,
 				695C3B861AFC53A900AE81D0 /* UIAlertView+HYBKit.h */,
@@ -331,15 +388,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				695C3B971AFC53A900AE81D0 /* UIDevice+HYBKit.m in Sources */,
+				69A4CD7C1B05F1F600209ABD /* NSFileManager+HYBKit.m in Sources */,
+				69A4CD7D1B05F1F600209ABD /* NSMutableArray+HYBKit.m in Sources */,
+				69A4CD771B05F1F600209ABD /* NSArray+HYBKit.m in Sources */,
+				69A4CD781B05F1F600209ABD /* NSData+HYBKit.m in Sources */,
+				69A4CD7A1B05F1F600209ABD /* NSDictionary+HYBKit.m in Sources */,
 				695C3B9A1AFC53A900AE81D0 /* UITextField+HYBKit.m in Sources */,
 				695C3B981AFC53A900AE81D0 /* UIImagePickerController+HYBExtension.m in Sources */,
 				695C3B941AFC53A900AE81D0 /* UIActionSheet+HYBKit.m in Sources */,
 				695812BF1ADE5E3100C5C9CE /* UIView+HYBExtension.m in Sources */,
+				69A4CD7F1B05F1F600209ABD /* NSObject+HYBKit.m in Sources */,
+				69A4CD791B05F1F600209ABD /* NSDate+HYBKit.m in Sources */,
+				69A4CD801B05F1F600209ABD /* NSString+HYBKit.m in Sources */,
 				695812941ADE54A000C5C9CE /* ViewController.m in Sources */,
 				695812911ADE54A000C5C9CE /* AppDelegate.m in Sources */,
+				69A4CD7E1B05F1F600209ABD /* NSMutableDictionary+HYBKit.m in Sources */,
 				695C3B9B1AFC53A900AE81D0 /* UIWindow+HYBKit.m in Sources */,
+				69A4CD7B1B05F1F600209ABD /* NSError+HYBKit.m in Sources */,
 				695C3B951AFC53A900AE81D0 /* UIAlertView+HYBKit.m in Sources */,
 				6958128E1ADE54A000C5C9CE /* main.m in Sources */,
+				69A4CD811B05F1F600209ABD /* NSTimer+HYBExtension.m in Sources */,
 				695C3B961AFC53A900AE81D0 /* UIButton+HYBKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
