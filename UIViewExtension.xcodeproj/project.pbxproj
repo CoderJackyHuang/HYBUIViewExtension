@@ -79,7 +79,6 @@
 		695C3B921AFC53A900AE81D0 /* UIWindow+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+HYBKit.h"; sourceTree = "<group>"; };
 		695C3B931AFC53A900AE81D0 /* UIWindow+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+HYBKit.m"; sourceTree = "<group>"; };
 		695C3B9D1AFC5AC400AE81D0 /* HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBKit.h; sourceTree = "<group>"; };
-		69A4CD601B05F1F600209ABD /* HYBFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBFoundation.h; sourceTree = "<group>"; };
 		69A4CD611B05F1F600209ABD /* NSArray+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HYBKit.h"; sourceTree = "<group>"; };
 		69A4CD621B05F1F600209ABD /* NSArray+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HYBKit.m"; sourceTree = "<group>"; };
 		69A4CD631B05F1F600209ABD /* NSData+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+HYBKit.h"; sourceTree = "<group>"; };
@@ -190,7 +189,6 @@
 		695812BB1ADE5E3100C5C9CE /* HYBUIViewExtension */ = {
 			isa = PBXGroup;
 			children = (
-				69A4CD601B05F1F600209ABD /* HYBFoundation.h */,
 				69A4CD611B05F1F600209ABD /* NSArray+HYBKit.h */,
 				69A4CD621B05F1F600209ABD /* NSArray+HYBKit.m */,
 				69A4CD631B05F1F600209ABD /* NSData+HYBKit.h */,

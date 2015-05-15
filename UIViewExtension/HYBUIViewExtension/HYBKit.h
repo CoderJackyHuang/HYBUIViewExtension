@@ -19,6 +19,17 @@
 #import "UIView+HYBExtension.h"
 #import "UIColor+HYBExtension.h"
 #import "HYBDeviceDefine.h"
-#import "HYBFoundation.h"
+#import "NSArray+HYBKit.h"
+#import "NSMutableArray+HYBKit.h"
+#import "NSData+HYBKit.h"
+#import "NSDate+HYBKit.h"
+#import "NSDictionary+HYBKit.h"
+#import "NSMutableDictionary+HYBKit.h"
+#import "NSError+HYBKit.h"
+#import "NSFileManager+HYBKit.h"
+#import "NSObject+HYBKit.h"
+#import "NSString+HYBKit.h"
+#import "NSTimer+HYBExtension.h"
+#import "UIImage+HYBKit.h"
 
 #endif
