@@ -7,7 +7,7 @@
 //
 
 #import "UIImage+HYBKit.h"
-#import "Common.h"
+#import "HYBDeviceDefine.h"
 
 #define imageBytesPerMB 1048576.0f
 #define imageBytesPerPixel 4.0f

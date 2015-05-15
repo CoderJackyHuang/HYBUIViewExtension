@@ -33,6 +33,7 @@
 		69A4CD7F1B05F1F600209ABD /* NSObject+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A4CD721B05F1F600209ABD /* NSObject+HYBKit.m */; };
 		69A4CD801B05F1F600209ABD /* NSString+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A4CD741B05F1F600209ABD /* NSString+HYBKit.m */; };
 		69A4CD811B05F1F600209ABD /* NSTimer+HYBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A4CD761B05F1F600209ABD /* NSTimer+HYBExtension.m */; };
+		69A4CD841B05F72900209ABD /* UIImage+HYBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A4CD831B05F72900209ABD /* UIImage+HYBKit.m */; };
 		F7648977243E62C84198628D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85FFFD525AF1A0906DA528B0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +102,8 @@
 		69A4CD741B05F1F600209ABD /* NSString+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HYBKit.m"; sourceTree = "<group>"; };
 		69A4CD751B05F1F600209ABD /* NSTimer+HYBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+HYBExtension.h"; sourceTree = "<group>"; };
 		69A4CD761B05F1F600209ABD /* NSTimer+HYBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+HYBExtension.m"; sourceTree = "<group>"; };
+		69A4CD821B05F72900209ABD /* UIImage+HYBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HYBKit.h"; sourceTree = "<group>"; };
+		69A4CD831B05F72900209ABD /* UIImage+HYBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HYBKit.m"; sourceTree = "<group>"; };
 		85FFFD525AF1A0906DA528B0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F077DC94B634B6E59B9232 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -189,6 +192,8 @@
 		695812BB1ADE5E3100C5C9CE /* HYBUIViewExtension */ = {
 			isa = PBXGroup;
 			children = (
+				69A4CD821B05F72900209ABD /* UIImage+HYBKit.h */,
+				69A4CD831B05F72900209ABD /* UIImage+HYBKit.m */,
 				69A4CD611B05F1F600209ABD /* NSArray+HYBKit.h */,
 				69A4CD621B05F1F600209ABD /* NSArray+HYBKit.m */,
 				69A4CD631B05F1F600209ABD /* NSData+HYBKit.h */,
@@ -385,6 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69A4CD841B05F72900209ABD /* UIImage+HYBKit.m in Sources */,
 				695C3B971AFC53A900AE81D0 /* UIDevice+HYBKit.m in Sources */,
 				69A4CD7C1B05F1F600209ABD /* NSFileManager+HYBKit.m in Sources */,
 				69A4CD7D1B05F1F600209ABD /* NSMutableArray+HYBKit.m in Sources */,
