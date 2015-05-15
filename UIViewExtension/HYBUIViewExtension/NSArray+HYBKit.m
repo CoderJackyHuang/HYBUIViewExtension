@@ -17,7 +17,6 @@
     return [self objectAtIndex:index];
   }
   
-  NSLog(@"index:%ld is out of bounds", (long)index);
   return nil;
 }
 
