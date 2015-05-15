@@ -7,8 +7,7 @@
 //
 
 #import "NSObject+HYBKit.h"
-#import "Common.h"
-#import "HYBCommonTool.h"
+#import "HYBDeviceDefine.h"
 
 @implementation NSObject (HYBKit)
 
@@ -113,7 +112,7 @@
 }
 
 - (void)setValue:(id)value forUndefinedKey:(NSString *)key {
-  DDLogVerbose(@"undefinedKey: %@", key);
+
 }
 
 - (NSString *)className {

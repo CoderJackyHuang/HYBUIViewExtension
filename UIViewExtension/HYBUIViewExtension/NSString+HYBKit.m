@@ -12,6 +12,7 @@
 #import <sys/socket.h>
 #import <net/if.h>
 #import <net/if_dl.h>
+#import "HYBDeviceDefine.h"
 #import "NSData+HYBKit.h"
 
 static char base64EncodingTable[64] = {
