@@ -19,5 +19,6 @@
 #import "UIView+HYBExtension.h"
 #import "UIColor+HYBExtension.h"
 #import "HYBDeviceDefine.h"
+#import "HYBFoundation.h"
 
 #endif
